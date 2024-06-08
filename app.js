@@ -51,7 +51,7 @@ const addNote = (text = "") => {
 // * this function will run onload ~ self calling function
 (
     function () {
-        addNote("Write Here , you can add more notes!!\n\ndeveloped with❤️by Srajan")
+        addNote("Write Here , you can add more notes!!\nDon't forget to save😂\n\nmade with❤️by Srajan")
         const lsNotes = JSON.parse(localStorage.getItem("notes"));
 
         lsNotes.forEach(
